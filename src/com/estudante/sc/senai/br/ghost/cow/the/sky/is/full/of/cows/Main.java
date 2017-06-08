@@ -46,7 +46,7 @@ public class Main {
             int y = num.charAt(1);
 
             for (int i = x - 1; i <= x + 1; i++) {
-//                for (int j = y - )
+//                for (int j = y - );
             }
 
         }
