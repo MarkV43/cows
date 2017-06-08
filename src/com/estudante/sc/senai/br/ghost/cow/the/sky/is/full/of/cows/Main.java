@@ -45,8 +45,10 @@ public class Main {
             int x = num.charAt(0);
             int y = num.charAt(1);
 
-            for (int i = x - 1; i <= x + 1; i++) {
-//                for (int j = y - );
+            for (int i = Math.max(x - 1, 0); i <= Math.min(x + 1, 6); i++) {
+                for (int j = Math.max(y - 1, 0); j <= Math.min(y + 1, 6); j++) {
+                    System.out.println("hue");
+                }
             }
 
         }
