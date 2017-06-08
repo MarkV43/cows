@@ -2,9 +2,6 @@ package com.estudante.sc.senai.br.ghost.cow.the.sky.is.full.of.cows;
 
 import java.util.Scanner;
 
-/**
- * Created by Aluno on 07/06/2017.
- */
 public class Main {
 
     public static void main(String[] str) {
@@ -29,6 +26,9 @@ public class Main {
 
             int pos = scanner.nextInt();
 
+            board = play(pos, board, yourTurn);
+
+            yourTurn = !yourTurn;
 
         } while (!gameEnd(board));
 
